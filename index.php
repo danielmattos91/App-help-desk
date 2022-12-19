@@ -37,7 +37,7 @@
                   <input name="email" type="email" class="form-control" placeholder="E-mail">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control" placeholder="Senha">
+                  <input name="senha" type="password" class="form-control" placeholder="Senha">
                 </div>
 
                 <?php
@@ -60,7 +60,7 @@
                   </div>
                 <?php } ?>
 
-                <button name="senha" class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
+                <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
             </div>
           </div>
